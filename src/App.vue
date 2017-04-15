@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <app-todoinput></app-todoinput>
+    <app-datainput></app-datainput>
     <app-todolist></app-todolist>
+    <app-weatherdata></app-weatherdata>
   </div>
 </template>
 
 <script>
-  import TodoInput from './components/TodoInput.vue';
+  import DataInput from './components/DataInput.vue';
   import TodoList from './components/TodoList.vue';
+  import WeatherData from './components/WeatherData.vue';
 
   export default {
       components: {
-          appTodoinput: TodoInput,
-          appTodolist: TodoList
+          appDatainput: DataInput,
+          appTodolist: TodoList,
+          appWeatherdata: WeatherData
       }
   }
 </script>

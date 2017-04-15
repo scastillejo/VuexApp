@@ -1,6 +1,6 @@
-# vuex-basics
+# vuex-app
 
-> A Vue.js project
+> A Vuex app
 
 ## Build Setup
 

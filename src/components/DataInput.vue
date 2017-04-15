@@ -1,8 +1,13 @@
 <template>
-    <div id="TodoInput">
-        <h3>Type a thing to do...</h3>
-        <input id="todoinput" required />
+    <div id="DataInput">
+      <div>
+        <input id="todoinput" placeholder="Type a thing to do..." required />
         <button @click="handleTodos">Save</button>
+      </div>
+      <div>
+        <input id="weatherinput" placeholder="Type a city..." required />
+        <button @click="handleCityWeather">Find</button>
+      </div>
     </div>
 </template>
 
@@ -12,6 +17,10 @@
             handleTodos() {
                 this.$store.dispatch('savetodo', todoinput.value);
                 todoinput.value = '';
+            },
+            handleCityWeather() {
+                this.$store.dispatch('findweather', weatherinput.value);
+                weatherinput.value = '';
             }
         }
     }

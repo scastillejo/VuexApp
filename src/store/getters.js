@@ -4,5 +4,8 @@ export default {
     },
     totalTodos(state) {
         return state.todos.length;
+    },
+    weatherdata(state) {
+        return state.weatherdata;
     }
 };

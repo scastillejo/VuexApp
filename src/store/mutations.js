@@ -4,5 +4,8 @@ export default {
     },
     deletetodo(state, todo) {
         state.todos.splice(state.todos.indexOf(todo), 1);
+    },
+    findweather(state, data) {
+        state.weatherdata = data;
     }
 };

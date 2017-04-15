@@ -1,6 +1,6 @@
 {
   "name": "vuex-app",
-  "description": "A Todo Vue.js app",
+  "description": "A Vuex app",
   "version": "1.0.0",
   "author": "Sebastian",
   "private": true,

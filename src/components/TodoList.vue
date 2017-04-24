@@ -2,7 +2,7 @@
     <div id="TodoList">
         <div class="summary">
             <h3>Todos</h3>
-            <h5>Total: {{ total }}</h5>
+            <h5>Total todos: {{ total }}</h5>
         </div>
         <hr>
         <div class="row" v-for="todo in todos">
